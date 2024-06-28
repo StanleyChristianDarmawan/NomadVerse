@@ -1,16 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-const LandingPage = () => {
-  return (
-    <div>
-      <h1>Welcome to the Freelance Application</h1>
-      <p>Please log in with Internet Identity to continue.</p>
-      {/* <div>
-        <Link to="/login">Log In</Link>
-      </div> */}
-    </div>
-  );
+
+function Landing(){
+    return(
+        <div className="flex justify-center items-center h-screen">
+            <Link to = "/user" className="w-64 bg-black text-white">Sign in</Link>
+        </div>
+    );
 };
 
-export default LandingPage;
+
+export default Landing;

@@ -13,15 +13,15 @@ import Sidebar from './Components/Sidebar';
 const CompanyPage = () => {
   return (
     <div>
-      <h1>Company Page</h1>
+      {/* <h1>Company Page</h1>
       <div className="main-content">
         <Sidebar />
         <div className="content">
           <CompanySide />
         </div>
       </div>
-      {/* <Element /> */}
-      
+      <Element />
+       */}
     </div>
   );
 };
